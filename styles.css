@@ -226,3 +226,187 @@ a {
     font-weight: 700px;
     margin-bottom: 21px;
 }
+
+/* Job Section */
+
+.job-section__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin-top: 80px;
+    background-color: #ffffff;
+}
+
+.job-section__left {
+    width: 55%;
+}
+
+.job-section__left img {
+    width: 100%;
+    height: auto;
+}
+
+.job-section__right {
+    width: 45%;
+}
+
+.job-section__right h3 {
+    color: #323b4b;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700px;
+    margin-bottom: 31px;
+    margin-right: 35px;
+    margin-left: 100px;
+}
+
+.job-section__right p {
+    color: #8a94a6;
+    font-size: 20px;
+    line-height: 35px;
+    margin-right: 35px;
+    margin-left: 100px;
+}
+
+/* Free Vacancy Section */
+
+.freevacancy-section__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px;
+    background-color: #fafbfc;
+}
+
+.freevacancy-section__top {
+    width: 100%;
+    text-align: center;
+}
+
+.freevacancy-section__top h1 {
+    color: #323b4b;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    margin-bottom: 35px;
+    margin-top: 45px;
+}
+
+.freevacancy-section__top p {
+    color: #8a94a6;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 90px;
+}
+
+.freevacancy-section__info {
+    margin: 0 auto;
+    margin-bottom: 21px;
+    display: flex;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+    display: flex;
+    justify-content: space-between;
+    height: 115px;
+    width: 880px;
+    align-items: center;
+    margin: 0 auto;
+
+    background-color: #ffffff;
+    box-shadow: 0px 50px 77px rgba(176, 183, 195, 0.22);
+    border-radius: 15px;
+    margin-bottom: 37px;
+}
+
+.h3-position {
+    padding-left: 220px;
+    margin-right: 320px;
+}
+
+.h3-department {
+    margin-right: 95px;
+}
+
+.h4-box {
+    padding-left: 32px;
+}
+
+.p-box1 {
+    margin-left: 70px;
+}
+
+.p-box2 {
+    margin-left: 120px;
+}
+
+.p-box3 {
+    margin-left: 38px;
+}
+
+.p-box4 {
+    margin-left: 120px;
+}
+
+.box-1 :last-child {
+    padding-right: 60px;
+}
+
+.box-2 :last-child {
+    padding-right: 60px;
+}
+
+.box-3 :last-child {
+    padding-right: 98px;
+}
+
+.box-4 :last-child {
+    padding-right: 60px;
+}
+
+.freevacancy-section__middle h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #323b4b;
+}
+
+.freevacancy-section__middle h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #323b4b;
+}
+
+.freevacancy-section__middle p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #8a94a6;
+}
+
+.freevacancy-section__bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-btn {
+    background-color: #e5f1ff;
+    width: 630px;
+    height: 66px;
+    border: none;
+    border-radius: 10px;
+    color: #377dff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    cursor: pointer;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
